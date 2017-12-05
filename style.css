@@ -1,53 +1,34 @@
-h1 {
-  font-family: Helvetica;
-  font-size: 70px;
-  font-weight: bold;
-  color: white;
-}
-
-h2 {
-  font-family: Helvetica;
-  font-size: 18px;
-  color: white;
-}
-
-.pic {
-  background-image: url(https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png);
-}
-
-h3 {
-  font-family: Helvetica;
-  font-size: 32px;
-  font-weight: bold;
-}
-
-h4 {
-  font-family: Helvetica;
-  font-size: 23px;
-  font-weight: bold;
-}
-
-p {
-  font-family: Helvetica;
+header {
   font-size: 14px;
-}
-
-h5 {
-  font-family: Helvetica;
-  font-size: 23px;
+  font-family: Verdana;
   font-weight: bold;
-  color: white;
-  background-image: url(https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png);
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid black;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 80px;
 }
 
-body {
-  text-align: center;
+header img {
+  width: 70px;
+  height: 60px;
+  margin-right: 12px;
 }
 
-#footer {
-  font-family: Helvetica;
-  font-size: 11px !important;
-  color: white;
-  background-color: dimgray;
-  text-align: left;
+.logo {
+  flex-grow: 1;
+  padding-left: 30px;
+  align-items: center;
+  display: flex;
+}
+
+.logo span {
+  color: MediumAquamarine;
+}
+
+nav span{
+  display: inline-block;
+  padding: 20px 10px;
 }
